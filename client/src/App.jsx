@@ -6,6 +6,9 @@ import About from './views/About/About';
 import Review from './views/Review/Review';
 import Blog from './views/Blog/Blog';
 import Login from './views/Login/Login';
+import Reward from './views/Rewards/Reward';
+import Prevention from './views/Prevention/Prevention';
+
 
 function App() {
   const router=createBrowserRouter([
@@ -28,6 +31,14 @@ function App() {
     {
       path:"/blog",
       element:<Blog></Blog>
+    },
+    {
+      path:"/rewards",
+      element:<Reward></Reward>
+    },
+    {
+      path:"/preventions/:id",
+      element:<Prevention></Prevention>
     }
   ])
 
