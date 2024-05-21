@@ -4,28 +4,34 @@ import About from '../../views/About/About';
 import Review from '../../views/Review/Review';
 import Blog from '../../views/Blog/Blog';
 import Login from '../../views/Login/Login';
-import{Link} from 'react-router-dom';
-import logo1 from './logo1.png';
-import logo2 from './logo2.png';
-import logo3 from './logo3.png';
-
+import { Link } from 'react-router-dom';
+import logo2 from '../../../Images/logo.png';
 
 function Navbar() {
   return (
-    <div className='bg-green-600'>
-      <img src={logo2} className='mx-auto w-20 mt-5'></img>
-      <h1 className=' bg-green-600 py-5 text-center text-lg  text-indigo-50'><span className='text-white font-semibold text-4xl font-serif'>Planet Pulse</span></h1>
-      <div className='flex flex-wrap justify-center bg-green-600'>
-        <ul className='flex flex-wrap space-x-10 py-4'>
-           
-            <li className='cursor-pointer'><Link to='/'>Home</Link></li>
-            <li className='cursor-pointer'><Link to='/about'>About</Link></li>
-            <li className='cursor-pointer'><Link to='/contact'>Contact</Link></li>
-            <li className='cursor-pointer'><Link to='/review'>Review</Link></li>
-            <li className='cursor-pointer'><Link to='/blog'>Blog</Link></li>
-            
-        </ul>
+
+    <div className='bg-green-600 flex justify-between h-28 px-4'>
+      <div className='flex flex-initial'>
+        <img src={logo2} className=' mt-5 w-40 h-40 drop-shadow-2xl '></img>
+        <h1 className=' bg-green-600  mt-9   text-indigo-50 -ml-12 font-semibold text-4xl font-serif italic '>Planet<span className='text-blue-950 	'> Pulse</span></h1>
       </div>
+      <div>
+        <div className=' bg-green-600 mt-10 pr-20'>
+          <ul className='flex flex-wrap  justify-evenly space-x-10  font-lg font-semibold text-blue-950 '>
+
+            <li className='cursor-pointer  hover:text-white'><Link to='/'>Home</Link></li>
+            <li className='cursor-pointer  hover:text-white'><Link to='/about'>About</Link></li>
+            <li className='cursor-pointer  hover:text-white'><Link to='/rewards'>Reward</Link></li>
+            <li className='cursor-pointer  hover:text-white'><Link to='/review'>Review</Link></li>
+            <li className='cursor-pointer  hover:text-white' ><Link to='/blog'>Blog</Link></li>
+
+          </ul>
+        </div>
+
+      </div>
+
+
+
     </div>
   )
 }
