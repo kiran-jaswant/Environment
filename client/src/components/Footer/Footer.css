@@ -1,0 +1,86 @@
+.footer-container{
+    width: 100vw;
+    margin: 0;
+    padding: 10px;
+    border-top: 2px solid brown;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.footer-img{
+    height: 80px;
+}
+.footer-sections{
+    flex: 1;
+    padding: 20px;
+}
+.section-div{
+    margin: 15px 20px;
+}
+.section-title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.footer-shop-title{
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+}
+.footer-anchor{
+    text-decoration: none;
+    margin: 3px 0;
+    cursor: pointer;
+    color:white;
+}
+
+.footer-anchor:hover{
+    margin-left: 10px;
+    transition: 0.9s;
+}
+
+
+
+/* import React from 'react';
+import logo from '../../../Images/logo.png';
+
+function Footer() {
+  return (
+    <footer className="bg-blue-950 text-white py-8 px-20">
+      <div className=" flex  justify-between ">
+          <div className="w-52">
+            <img src={logo} alt="Planet Pulse Logo" className='w-32' />
+            <p>Planet Pulse, where the heartbeat of nature guides our mission to protect and preserve our planet. We are dedicated to fostering a sustainable future through education, conservation, and community action. Join us in our journey to nurture the environment. Together, we can make a difference—one pulse at a time.</p>
+          </div>
+       
+          <div className="">
+            <h3 className="text-lg font-bold mb-2">Quick Links</h3>
+            <ul className="space-y-1">
+              <li><a href="/about" className="hover:underline">About</a></li>
+              <li><a href="/projects" className="hover:underline">Projects</a></li>
+              <li><a href="/blog" className="hover:underline">Blog</a></li>
+              <li><a href="/contact" className="hover:underline">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-bold mb-2">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a href="https://facebook.com" aria-label="Facebook" className="hover:text-gray-400">
+                <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22.676 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.408.593 24 1.325 24h11.49V14.709h-3.13v-3.627h3.13V8.413c0-3.1 1.893-4.785 4.657-4.785 1.325 0 2.466.099 2.797.143v3.244l-1.918.001c-1.504 0-1.795.715-1.795 1.762v2.311h3.587l-.467 3.627h-3.12V24h6.116c.73 0 1.324-.593 1.324-1.326V1.326C24 .593 23.406 0 22.676 0z"/></svg>
+              </a>
+              <a href="https://twitter.com" aria-label="Twitter" className="hover:text-gray-400">
+                <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M24 4.557a9.839 9.839 0 01-2.828.775 4.933 4.933 0 002.165-2.724 9.865 9.865 0 01-3.127 1.195 4.924 4.924 0 00-8.389 4.49A13.978 13.978 0 011.671 3.149a4.923 4.923 0 001.524 6.573A4.902 4.902 0 01.964 9.6v.062a4.923 4.923 0 003.95 4.827 4.903 4.903 0 01-2.212.084 4.924 4.924 0 004.598 3.417A9.867 9.867 0 010 21.54 13.945 13.945 0 007.548 24c9.057 0 14.01-7.506 14.01-14.01 0-.213-.004-.425-.014-.636A9.997 9.997 0 0024 4.557z"/></svg>
+              </a>
+              <a href="https://instagram.com" aria-label="Instagram" className="hover:text-gray-400">
+                <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.343 3.608 1.318a5.543 5.543 0 011.317 3.609c.058 1.265.068 1.645.068 4.848s-.01 3.584-.068 4.849a5.54 5.54 0 01-1.317 3.608 5.54 5.54 0 01-3.608 1.318c-1.265.058-1.645.068-4.849.068s-3.584-.01-4.849-.068a5.542 5.542 0 01-3.608-1.317 5.542 5.542 0 01-1.318-3.608c-.058-1.265-.068-1.645-.068-4.849s.01-3.584.068-4.849a5.543 5.543 0 011.318-3.608 5.543 5.543 0 013.608-1.318c1.265-.058 1.645-.068 4.849-.068M12 0C8.741 0 8.332.012 7.052.07 5.773.128 4.605.39 3.675 1.32c-.93.93-1.192 2.099-1.25 3.378C2.012 8.333 2 8.741 2 12s.012 3.668.07 4.948c.058 1.279.32 2.448 1.25 3.378.93.93 2.099 1.192 3.378 1.25 1.28.058 1.689.07 4.948.07s3.668-.012 4.948-.07c1.279-.058 2.448-.32 3.378-1.25.93-.93 1.192-2.099 1.25-3.378.058-1.28.07-1.689.07-4.948s-.012-3.668-.07-4.948c-.058-1.279-.32-2.448-1.25-3.378-.93-.93-2.099-1.192-3.378-1.25C15.668.012 15.259 0 12 0z"/><path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zM18.406 4.594a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  );
+}
+
+export default Footer; */
