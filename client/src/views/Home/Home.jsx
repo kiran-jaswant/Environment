@@ -11,6 +11,8 @@ import Middle from '../../components/Middle/Middle';
 import Features from '../../components/Features/Features';
 import Work from '../../components/Work/Work';
 import Why from '../../components/Why/Why';
+import Earth from '../../components/Earth/Earth';
+import PreventionCardComponent from '../../components/PreventionCardComponent/PreventionCardComponent';
 
 const images=[img1,img2,img3]
 
@@ -23,6 +25,8 @@ export default function Home() {
         <Header images={images}></Header>
         <Middle></Middle>
         <Work></Work>
+        <Earth></Earth>
+        <PreventionCardComponent></PreventionCardComponent>
         <Details></Details>
         <Why></Why>
         <Features></Features>

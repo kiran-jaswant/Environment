@@ -6,7 +6,7 @@ function Work() {
    
   return (
     <div className='mt-0 mb-0'>
-        <div className='w-full h-96 bg-fixed relative overflow-hidden bg-cover' style={{ backgroundImage: `url(${img})`,height:500}}></div>
+        <div className='w-full h-96 bg-fixed relative overflow-hidden bg-cover' style={{ backgroundImage: `url(${img})`,height:570}}></div>
         <div className='relative bottom-96 text-center space-x-2'>
             <h1 className='font-extrabold text-white p-2'>THE BEST TIME TO WAKE UP AND <span className='text-green-400'>SAVE OUR PLANET</span> IS NOW</h1>
             <p className='text-semibold platypi text-white my-4 space-x-2 text-base px-1 '>The only way to make this happened is to take action!</p>

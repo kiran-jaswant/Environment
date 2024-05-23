@@ -52,6 +52,21 @@ const left=[
         head:"Preserve Biodiversity",
         content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
     }
+];
+
+const right=[
+    {
+        head:"Preserve Biodiversity",
+        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+    },
+    {
+        head:"Preserve Biodiversity",
+        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+    },
+    {
+        head:"Preserve Biodiversity",
+        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+    }
 ]
 
-export{reasons,left}
+export{reasons,left,right}
