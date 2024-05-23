@@ -4,7 +4,7 @@ import img2 from './detail2.jpg';
 
 function Details() {
   return (
-    <div>
+    <div className='-mt-40'>
       <div className='bg-green-50 flex justify-between mx-16 my-7 rounded-lg shadow-lg p-10'>
         <div className='m-5'>
             <h2 className='text-xl p-3 mx-1 platypi text-green-800 font-bold'>Earth is Life</h2>

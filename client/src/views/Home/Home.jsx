@@ -9,6 +9,8 @@ import Details from '../../components/Details/Details';
 import Footer from '../../components/Footer/Footer';
 import Middle from '../../components/Middle/Middle';
 import Features from '../../components/Features/Features';
+import Work from '../../components/Work/Work';
+import Why from '../../components/Why/Why';
 
 const images=[img1,img2,img3]
 
@@ -20,7 +22,9 @@ export default function Home() {
         <Navbar></Navbar>
         <Header images={images}></Header>
         <Middle></Middle>
+        <Work></Work>
         <Details></Details>
+        <Why></Why>
         <Features></Features>
         <Footer></Footer>
        
