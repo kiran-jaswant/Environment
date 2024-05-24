@@ -1,4 +1,0 @@
-const content=[
-
-];
-export{content}

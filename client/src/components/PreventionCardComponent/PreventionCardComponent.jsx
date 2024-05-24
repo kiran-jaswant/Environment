@@ -10,7 +10,7 @@ function PreventionCardComponent() {
       <div className='relative bottom-96 text-center space-x-2 text-white text-lg -mt-36'>
         <p className='platypi'>Take five minutes to help save our planet. </p>
         <p className='platypi'>Your actions matter</p>
-        <h1 className='merriweather-sans  font-extralight '>PREVENTION IS BETTER THAN CURE</h1>
+        <h1 className='merriweather-sans  font-extrabold text-2xl  m-6 ' style={{fontWeight:700}}>PREVENTION IS BETTER THAN CURE</h1>
       <Card></Card>
             
         </div>
