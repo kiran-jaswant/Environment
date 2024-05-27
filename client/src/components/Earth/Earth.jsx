@@ -30,7 +30,7 @@ function Earth() {
                     </div>
                     <div>
 
-                        <img className='rotate  mt-24 w-52 h-52' src={earth} alt='img' />
+                        <img className='rotate  mt-24 w-72 h-72' src={earth} alt='img' />
 
                     </div>
 

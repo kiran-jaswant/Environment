@@ -21,8 +21,8 @@ const card=[
     {
         id:3,
         img:icon3,
-        head:"MANAGE WASTE",
-        description:"By managing waste effectively, you can help protect our planet. Learn simple steps to reduce, reuse, recycle, and compost. "
+        head:"END PLASTIC USAGE",
+        description:"By managing waste effectively, you can help protect our planet. Say no to plastic,try to understand its impact on  "
     },
     {
         id:4,
