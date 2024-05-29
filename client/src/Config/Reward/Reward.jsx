@@ -1,8 +1,8 @@
 
 import img1 from './Images/planting.jpg';
 import img2 from './Images/beach.webp';
-import img3 from './Images/recycle,jpg';
-import img4 from './Image/energy.jpg';
+import img3 from './Images/recycle.jpg';
+import img4 from './Images/energy.jpg';
 import img5 from './Images/water.webp';
 import img6 from './Images/education.jpg';
 import img7 from './Images/wildlife.jpg';

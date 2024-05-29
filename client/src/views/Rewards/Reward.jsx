@@ -29,7 +29,7 @@ function Reward() {
         <div className='mr-16 w-1/2 mt-24'>
           <h1 className='text-3xl font-bold merriweather-sans mt-16 text-blue-950' style={{ fontWeight: 700 }}>Unlock Exclusive <br></br>Rewards As <span className='text-lime-700'>You Participate</span></h1>
           <p className='platypi text-slate-600  mt-7'>Are you ready to make a real difference? The health of our planet is in your hands, and every small action counts! Join our community of eco-warriors today and take part in meaningful environmental activities that help protect our Earth. Whether you’re planting trees, reducing plastic use, or spreading awareness, your efforts contribute to a brighter, greener future.</p>
-          <button className='border-2 border-blue-950 bg-blue-950 text-white px-9 py-3 mx-0 my-9 font-bold rounded-md hover:bg-transparent hover:text-blue-950'>Explore</button>
+          <a href='#reward-cards'><button className='border-2 border-blue-950 bg-blue-950 text-white px-9 py-3 mx-0 my-9 font-bold rounded-md hover:bg-transparent hover:text-blue-950'>Explore</button></a>
         </div>
 
       </div>
@@ -68,8 +68,8 @@ function Reward() {
         </div>
       </div>
       <div className='-mt-40'>
-        <h1 className='text-center  p-5 text-4xl font-bold text-blue-950 '>Rewards For Different Environmental Activities</h1>
-        <div>
+        <h1 className='text-center  p-5 text-4xl font-bold text-blue-950 ' id="reward-cards">Rewards For Different Environmental Activities</h1>
+        <div className='flex flex-wrap justify-evenly mt-10'>
           {
             Rewardcardinfo.map((rewardinfo, i) => {
               const { img, activity, rewards } = rewardinfo;

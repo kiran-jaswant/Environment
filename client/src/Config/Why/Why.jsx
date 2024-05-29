@@ -45,27 +45,27 @@ const left=[
 
     },
     {
-        head:"Preserve Biodiversity",
-        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+        head:"Environmental Sustainability",
+        content:"Preserving our planet is not a choice, it's a responsibility we owe to the future.Protecting nature today ensures a thriving world for generations to come. Let's be the guardians of our Earth, nurturing it for a sustainable tomorrow."
     },
     {
-        head:"Preserve Biodiversity",
-        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+        head:"Human Health",
+        content:"Taking care of our bodies is a gift we give to ourselves and our loved ones.A healthy mind and body are the foundation for a fulfilling life.Empowering well-being within leads to a harmonious existence."
     }
 ];
 
 const right=[
     {
-        head:"Preserve Biodiversity",
-        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+        head:"Climate Stability",
+        content:"Balancing the Earth's rhythms is key to securing a stable climate for all.Guarding our home against climate change is safeguarding our future.Harmony with nature paves the way for a stable and sustainable world."
     },
     {
-        head:"Preserve Biodiversity",
-        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+        head:"Economic Prosperity",
+        content:"Building a world where everyone can flourish is a vision worth striving for.Economic prosperity is not just about wealth but about opportunities for all.Let's create a future where every individual has the chance to thrive."
     },
     {
-        head:"Preserve Biodiversity",
-        content:"Protecting our planet ensures that these ecosystems remain intact, supporting not only the survival of various species but also maintaining the natural processes that sustain life."
+        head:"Food Security",
+        content:"Ensuring enough for all to thrive is a fundamental right we must protect.Food security is the cornerstone of a healthy and prosperous society.Let's work together to guarantee access to nutritious food for everyone."
     }
 ]
 

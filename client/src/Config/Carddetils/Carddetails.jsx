@@ -1,6 +1,8 @@
 import icon1 from './icons/icon1.png';
 import icon2 from './icons/icon2.png';
 import icon3 from './icons/icon3.png';
+import icon4 from './icons/icon4.png';
+import icon5 from './icons/icon5.png';
 
 
 const card=[
@@ -14,7 +16,7 @@ const card=[
     {
         id:2,
         img:icon2,
-        head:"PLANT TREES",
+        head:"GROW MORE TREES",
         description:"Planting trees is one of the simplest yet most powerful actions you can take to help the environment.Plant more trees. "
 
     },
@@ -22,19 +24,19 @@ const card=[
         id:3,
         img:icon3,
         head:"END PLASTIC USAGE",
-        description:"By managing waste effectively, you can help protect our planet. Say no to plastic,try to understand its impact on  "
+        description:"Imagine a world without plastic waste—make it a reality by choosing reusable options every day.Learn how to achieve it? "
     },
     {
         id:4,
-        img:icon1,
-        head:"MANAGE WASTE",
-        description:"By managing waste effectively, you can help protect our planet. Learn simple steps to reduce, reuse, recycle, and compost. "
+        img:icon4,
+        head:"CONSERVE ENERGY",
+        description:"Dive into energy conservation. Discover how small changes can make a big difference.illuminating a brighter future "
     },
     {
         id:5,
-        img:icon1,
-        head:"MANAGE WASTE",
-        description:"By managing waste effectively, you can help protect our planet. Learn simple steps to reduce, reuse, recycle, and compost. "
+        img:icon5,
+        head:"CONSERVE WATER NOW",
+        description:"Every drop of water matter.Water is life and you need understant that.Please go throung the steps to save water." 
 
     }
 ];

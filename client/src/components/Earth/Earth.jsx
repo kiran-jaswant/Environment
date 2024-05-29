@@ -18,8 +18,8 @@ function Earth() {
                                 const { head, content } = point;
                                 return (
                                     <div className='w-80 mt-7' index={index}>
-                                        <h1 className='text-center merriweather-sans text-green-800 font-extrabold'>{head}</h1>
-                                        <p className='cormorant-garamond-light text-slate-500 text-justify'>{content}</p>
+                                        <h1 className='text-center merriweather-sans text-green-800 font-extrabold underline' style={{fontWeight:600}}>{head}</h1>
+                                        <p className='cormorant-garamond-light text-slate-600 text-justify mt-1'>{content}</p>
 
 
                                     </div>
@@ -40,8 +40,8 @@ function Earth() {
                                 const { head, content } = point;
                                 return (
                                     <div className='w-80 mt-7' index={index}>
-                                        <h1 className='text-center merriweather-sans text-green-800 font-extrabold'>{head}</h1>
-                                        <p className='cormorant-garamond-light text-slate-500 text-justify'>{content}</p>
+                                        <h1 className='text-center merriweather-sans text-green-800 font-extrabold underline'  style={{fontWeight:600}}>{head}</h1>
+                                        <p className='cormorant-garamond-light text-slate-600 text-justify mt-1'>{content}</p>
 
 
                                     </div>

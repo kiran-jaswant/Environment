@@ -7,23 +7,23 @@ import logo from '../../../Images/logo.png';
 
 function Footer() {
   return (
-    <div className='bg-blue-950 text-white'>
+    <div className='bg-blue-950 text-white py-8 h-96'>
       <div className='footer-container'>
         <div className='footer-sections '>
        <div className='flex flex-row -ml-8 '>
-       <img src={logo} alt='logo' className='footer-img w-36 h-36 ml-8' />
+       <img src={logo} alt='logo' className='footer-img w-40 h-40 ml-8' />
         <h5 className='footer-shop-title  mt-3'>
-            <Link to='/' className='footer-anchor text-2xl font-bold text-white italic  hover:underline -ml-14  ' >Planet Pulse</Link>
+            <Link to='/' className='footer-anchor text-3xl font-bold text-white italic  hover:underline -ml-14  ' >Planet Pulse</Link>
         </h5>
        </div>
-          <div className='section-div -mt-7'>
+          <div className='section-div -mt-14'>
             <p className='text-base cormorant-garamond-light text-justify '>
-            Planet Pulse, where the heartbeat of nature guides our mission to protect and preserve our planet. We are dedicated to fostering a sustainable future through education, conservation, and community action.
+            "Planet Pulse, where the heartbeat of nature guides our mission to protect and preserve our planet. We are dedicated to fostering a sustainable future through education, conservation, and community action."
             </p>
           </div>
 
         </div>
-        <div className='footer-sections'>
+        <div className='footer-sections ml-16'>
           <h5 className='section-title'> Main Menu</h5>
           <div className='section-div flex flex-col'>
             <Link className='nav-link menu footer-anchor' to='/'> Home </Link>
