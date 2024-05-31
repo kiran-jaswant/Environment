@@ -6,10 +6,11 @@ import star from './Images/star.png';
 import earth from './Images/earth.jpg';
 import Rewardcard from '../../components/Rewardcard/Rewardcard';
 import { Rewardcardinfo } from '../../Config/Reward/Reward';
+import ScrollUp from '../../components/ScrollUp/ScrollUp';
 
 function Reward() {
   return (
-    <div className=' '>
+    <div className=' ' id='top'>
       <Navbar></Navbar>
       <div className='flex justify-around h-screen bg-gradient-to-r from-lime-100 to-lime-200  '>
         <div class="mt-24 ">
@@ -85,7 +86,7 @@ function Reward() {
         </div>
       </div>
 
-
+     <a href='#top'><ScrollUp></ScrollUp></a>
       <Footer></Footer>
     </div>
   )

@@ -13,6 +13,8 @@ import Work from '../../components/Work/Work';
 import Why from '../../components/Why/Why';
 import Earth from '../../components/Earth/Earth';
 import PreventionCardComponent from '../../components/PreventionCardComponent/PreventionCardComponent';
+import ScrollUp from '../../components/ScrollUp/ScrollUp';
+import './Home.css';
 
 const images=[
   {
@@ -40,8 +42,8 @@ const images=[
 
 export default function Home() {
   return (
-    <div>
-        <Navbar></Navbar>
+    <div id='nav'>
+        <Navbar ></Navbar>
         <Header images={images}></Header>
         <Middle></Middle>
         <Work></Work>
@@ -50,6 +52,7 @@ export default function Home() {
         <Details></Details>
         <Why></Why>
         <Features></Features>
+        <a href='#nav' ><ScrollUp></ScrollUp></a>
         <Footer></Footer>
        
     </div>

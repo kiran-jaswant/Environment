@@ -3,10 +3,12 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import ReviewCard from '../../components/ReviewCard/ReviewCard';
 import { reviews } from '../../Config/Reviews/Review';
+import ReviewForm from '../../components/Reviewform/Reviewform';
+import ScrollUp from '../../components/ScrollUp/ScrollUp';
 
 function Review() {
   return (
-    <div className='bg-slate-50 '>
+    <div className='bg-slate-50 ' id='nav'>
       <Navbar></Navbar>
       <div className='m-10'>
       <h1 className='text-3xl text-center font-bold merriweather-sans mt-16 text-blue-950' style={{fontWeight:700}}>What Our Customer Says</h1>
@@ -23,6 +25,8 @@ function Review() {
       </div>
    
       </div>
+      <ReviewForm></ReviewForm>
+      <a href='#nav'><ScrollUp></ScrollUp></a>
       <Footer></Footer>
     </div>
   )
