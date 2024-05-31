@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import starh from './starh.png';
+import starf from './starf.png';
 
 const ReviewForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [review, setReview] = useState('');
+  const [ratings,setRatings]=useState(starh)
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,6 +17,10 @@ const ReviewForm = () => {
     setEmail('');
     setReview('');
   };
+  function rated(){
+    setRatings(starf);
+
+  }
 
   return (
    <div className='flex justify-center mx-20'>
@@ -72,9 +79,17 @@ const ReviewForm = () => {
     </div>
     <div className='border rounded-2xl p-4 mx-5 my-5 w-1/2 shadow-lg'>
     <h2 className="text-xl font-semibold mb-6 text-center my-10">Your Opinion Matter Alot To Us</h2>
-        <h1 className='text-center m-3 font-bold'>
-            
+        <h1 className='text-center m-3 font-bold mt-16'>
+            Add Your Ratings Here
         </h1>
+        <div className='flex justify-evenly w-80 mx-36 mt-14'>
+            <img src={ratings}  className='w-10'></img>
+            <img src={ratings} className='w-10'></img>
+            <img src={ratings} className='w-10'></img>
+            <img src={ratings} className='w-10'></img>
+            <img src={ratings} className='w-10'></img>
+            
+        </div>
     </div>
    </div>
   );
