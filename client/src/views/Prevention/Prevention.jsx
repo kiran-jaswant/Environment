@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import { content } from '../../Config/PreventionDetails/PreventionDetails';
+import ScrollUp from '../../components/ScrollUp/ScrollUp';
 
 function Prevention() {
   const { id } = useParams(); 
@@ -14,7 +15,7 @@ function Prevention() {
   const { img,head,description,head2,ways} = preventionDetail;
 
   return (
-    <div>
+    <div id='top'>
       <Navbar />
      <div className='m-14 bg-blue-100 py-10  '>
      <h1 className="text-2xl font-bold text-center p-6 text-blue-900">{head}</h1>
@@ -49,6 +50,7 @@ function Prevention() {
 
       </div>
      </div>
+     <a href='#top'><ScrollUp></ScrollUp></a>
       <Footer />
     </div>
   );
